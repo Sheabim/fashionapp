@@ -1,0 +1,78 @@
+
+<div class="container bg-3 text-center"> 
+
+
+  <div class="row">
+
+    <div class="col-sm-3">
+    <button type="button" class="btn btn-default">Wardrobe</button>
+     <br><br>
+    <div class="panel panel-default">
+     <div class="panel-body">
+    <% @garment_types.each do |garment_type| %>
+    <a href="/?garment_type=<%= garment_type.id %>" class="btn btn-block btn-<%= garment_type.id == @garment_type.id ? 'selected' : 'default' %>"><%= garment_type.name %></a>
+      <% end %>
+     </div></div>
+     </div>
+    
+    <div class="col-sm-4">
+       <button type="button" class="btn btn-default">Garments</button> 
+       <br><br>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div style="height: 500px;">
+         <% if @garments.any? %> 
+          <div class ="row">
+           <% @garments.each do |garment| %>
+
+            <div class="col-md-4">
+            <%= link_to add_to_look_path(@look, garment: garment.id) do %>
+            <%= image_tag garment.photo, class: 'img-responsive'%>
+            <% end %>
+            </div>
+           <% end %>
+            </div>
+            <% else %>
+      
+
+            <% end %>
+              <%= render 'garments/form' %>
+                 <%# link_to 'Add ' + @garment_type.name, new_garment_path(garment_type:@garment_type.id), class: 'btn btn-default btn-large' %>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <div class="col-sm-4">
+<button type="button" class="btn btn-default">Look</button> 
+    <br><br>
+      <div class="panel panel-default">
+        <div class="panel-body">
+        <div style="height: 500px;">
+      <div class ="row">
+            <% @look.garments.each do |garment| %>
+             <div class="col-sm-4">
+             
+              <%= image_tag garment.photo, class: 'img-responsive'%> <%= link_to "<i class='fa fa-times'></i>".html_safe, remove_from_look_path(@look, garment: garment.id) %>
+</div>
+            <% end %> 
+            <br>
+            <%= link_to 'Save this look', new_look_path(look: @look.id), class: 'btn btn-default' %>
+            </div>
+            </div>
+                   
+
+        </div>
+                 
+      </div>
+    </div>
+   
+      
+    </div>
+  </div>
+</div>
+</div>
+
+

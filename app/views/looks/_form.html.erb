@@ -1,0 +1,11 @@
+<%= simple_form_for(@look) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name, collection: LookType.order(name: :asc) %>
+  </div>
+  <%= text_field_tag(:current_look, params[:look]) %>
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

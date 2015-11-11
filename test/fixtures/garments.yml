@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  wardrobe_id: 
+  garment_type_id: 
+  photo: MyString
+
+two:
+  wardrobe_id: 
+  garment_type_id: 
+  photo: MyString

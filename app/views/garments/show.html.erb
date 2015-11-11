@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Wardrobe:</strong>
+  <%= @garment.wardrobe %>
+</p>
+
+<p>
+  <strong>Garment type:</strong>
+  <%= @garment.garment_type %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= image_tag @garment.photo %>
+</p>
+
+<%= link_to 'Edit', edit_garment_path(@garment) %> |
+<%= link_to 'Back', garments_path %>

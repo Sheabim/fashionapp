@@ -1,0 +1,24 @@
+<%= simple_form_for(@garment) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+  	<% if params[:garment_type] %>
+
+
+    
+    <%= f.input :garment_type_id, as: :hidden, input_html: { value: params[:garment_type]} %>
+    <% else %>
+    	<% unless @garment_type %>
+    	<%= f.association :garment_type %>
+    	<% end %>
+    <% end %>
+    <%= f.input :wardrobe_id, as: :hidden, input_html: { value: @user.wardrobe.id} %>
+    <center><%= f.input :photo, label: false %></center>
+
+
+  </div>
+  <br><br>
+  <div class="form-actions">
+    <%= f.submit 'Upload garment', class: 'btn btn-default' %>
+  </div>
+<% end %>

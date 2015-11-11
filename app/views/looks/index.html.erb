@@ -1,0 +1,35 @@
+
+<div class="container bg-3 text-center"> 
+
+  <div class="row">
+
+    <div class="col-sm-3">
+    <button type="button" class="btn btn-default">Choose the ocassion</button>
+    <br><br>
+    <div class="panel panel-default">
+      <div class="panel-body">
+  
+
+     <% @look_types.each do |look_type| %>
+      <%= link_to look_type.name, looks_path, class: 'btn btn-default btn-block' %>
+     <% end %>
+</div></div>
+    </div>
+    
+    <div class="col-sm-6">
+    
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div style="height: 600px;"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+   
+      
+    </div>
+  </div>
+</div>
+</div>

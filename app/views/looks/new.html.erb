@@ -1,0 +1,31 @@
+<h1>Save your look</h1>
+
+<div class="row">
+<div class="col-md-4">
+<div class="panel panel-default">
+<div class="panel-body">
+
+<%= render 'form' %>
+
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="panel panel-default">
+<div class="panel-body">
+      <div class ="row">
+            <% @current_look.garments.each do |garment| %>
+	            <div class="col-sm-4">
+	             
+	              <%= image_tag garment.photo, class: 'img-responsive'%> <%= link_to "<i class='fa fa-times'></i>".html_safe, remove_from_look_path(@current_look, garment: garment.id) %>
+				</div>
+            <% end %> 
+           
+        </div>
+       </div>
+      </div>
+     </div>
+     </div>
+
+
+<%= link_to 'Back', root_path %>
