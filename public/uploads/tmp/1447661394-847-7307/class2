@@ -1,0 +1,870 @@
+Last login: Wed Aug 26 18:09:02 on ttys000
+Sheilas-MacBook-Air:~ sheilaadesina$ ruby ex9.1.rb
+ruby: No such file or directory -- ex9.1.rb (LoadError)
+Sheilas-MacBook-Air:~ sheilaadesina$ ruby ex9.1.rb
+ruby: No such file or directory -- ex9.1.rb (LoadError)
+Sheilas-MacBook-Air:~ sheilaadesina$ ruby ex9.1.rb
+ruby: No such file or directory -- ex9.1.rb (LoadError)
+Sheilas-MacBook-Air:~ sheilaadesina$ cd app
+-bash: cd: app: No such file or directory
+Sheilas-MacBook-Air:~ sheilaadesina$ cd apps
+Sheilas-MacBook-Air:apps sheilaadesina$ ruby ex9.1.rb
+ruby: No such file or directory -- ex9.1.rb (LoadError)
+Sheilas-MacBook-Air:apps sheilaadesina$ ls 
+ex1.rb	ex2.rb	ex3.rb	ex4.rb	ex5.rb	ex6.rb	ex7.rb	ex8.rb	ex9.rb
+Sheilas-MacBook-Air:apps sheilaadesina$ ruby ex9.1.rb
+ruby: No such file or directory -- ex9.1.rb (LoadError)
+Sheilas-MacBook-Air:apps sheilaadesina$ ls
+class 1	class 2
+Sheilas-MacBook-Air:apps sheilaadesina$ cd class\ 
+class 1/ class 2/ 
+Sheilas-MacBook-Air:apps sheilaadesina$ cd class\ 
+class 1/ class 2/ 
+Sheilas-MacBook-Air:apps sheilaadesina$ cd class\ 2
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex9.1.rb
+ex9.1.rb:1: syntax error, unexpected tCONSTANT, expecting '}'
+...n" =>"taurus, location=>"Sydney"}
+...                               ^
+ex9.1.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+puts customers["name"]
+                    ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ls
+ex9.1.rb
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ls
+customer = {"name"=> "pedro", "age" => 21, "starsi.rb
+ex9.1.rb
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex10.rb
+Customer #1
+============
+Name: pedro
+Age: 21
+starsigntaurus
+Customer #2
+============
+Name: Anne
+Age: 23
+starsigntaurus
+Customer #3
+============
+Name: Jade
+Age: 25
+starsigntaurus
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ls
+customer = {"name"=> "pedro", "age" => 21, "starsi.rb
+ex10.rb
+ex9.1.rb
+Sheilas-MacBook-Air:class 2 sheilaadesina$ rm customer\ \=\ \{\"name\"\=\>\ \"pedro\"\,\ \"age\"\ \=\>\ 21\,\ \"starsi.rb 
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ls
+ex10.rb		ex9.1.rb
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex10.rb
+pedro
+Customer #1
+============
+Name: pedro
+Age: 21
+starsigntaurus
+Customer #2
+============
+Name: Anne
+Age: 23
+starsigntaurus
+Customer #3
+============
+Name: Jade
+Age: 25
+starsigntaurus
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+ex11.rb:10: `@2' is not allowed as an instance variable name
+ex11.rb:10: syntax error, unexpected end-of-input
+		puts "Start=sign: #{@2customer['starsign']}"
+		                     ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+ex11.rb:16: syntax error, unexpected ')', expecting =>
+...ign" => "taurus", "age" => 21}) 
+...                               ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+ex11.rb:31: syntax error, unexpected =>, expecting '}'
+...tumer =  Customer.new{"name" =>, "starsign" => starsign, "ag...
+...                               ^
+ex11.rb:31: syntax error, unexpected =>, expecting '}'
+...er.new{"name" =>, "starsign" => starsign, "age" => age}
+...                               ^
+ex11.rb:31: syntax error, unexpected =>, expecting :: or '[' or '.'
+...starsign" => starsign, "age" => age}
+...                               ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+ex11.rb:31: syntax error, unexpected =>, expecting '}'
+...tumer =  Customer.new{"name" => name, "starsign" => starsign...
+...                               ^
+ex11.rb:31: syntax error, unexpected =>, expecting :: or '[' or '.'
+...w{"name" => name, "starsign" => starsign, "age" => age}
+...                               ^
+ex11.rb:31: syntax error, unexpected =>, expecting :: or '[' or '.'
+...starsign" => starsign, "age" => age}
+...                               ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+ex11.rb:31: syntax error, unexpected =>, expecting '}'
+...tomer =  Customer.new{"name" => name, "starsign" => starsign...
+...                               ^
+ex11.rb:31: syntax error, unexpected =>, expecting :: or '[' or '.'
+...w{"name" => name, "starsign" => starsign, "age" => age}
+...                               ^
+ex11.rb:31: syntax error, unexpected =>, expecting :: or '[' or '.'
+...starsign" => starsign, "age" => age}
+...                               ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+ex11.rb:31: syntax error, unexpected =>, expecting '}'
+...tomer =  Customer.new{"name" => name, "starsign" => starsign...
+...                               ^
+ex11.rb:31: syntax error, unexpected =>, expecting :: or '[' or '.'
+...w{"name" => name, "starsign" => starsign, "age" => age}
+...                               ^
+ex11.rb:31: syntax error, unexpected =>, expecting :: or '[' or '.'
+...starsign" => starsign, "age" => age}
+...                               ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+ex11.rb:31: syntax error, unexpected =>, expecting '}'
+...tomer =  Customer.new{"name" => name, "starsign" => starsign...
+...                               ^
+ex11.rb:31: syntax error, unexpected =>, expecting :: or '[' or '.'
+...w{"name" => name, "starsign" => starsign, "age" => age}
+...                               ^
+ex11.rb:31: syntax error, unexpected =>, expecting :: or '[' or '.'
+...starsign" => starsign, "age" => age}
+...                               ^
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+y
+Whats is the customer's name?
+sheila
+What is the custome's age?
+30
+ex11.rb:31:in `<main>': undefined local variable or method `starsign' for main:Object (NameError)
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+yes
+Would you like to update the customer's name? y/n
+ex11.rb:37:in `<main>': undefined local variable or method `update_response' for main:Object (NameError)
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+yes
+Would you like to update the customer's name? y/n
+ex11.rb:37:in `<main>': undefined local variable or method `update_response' for main:Object (NameError)
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+y
+Whats is the customer's name?
+she
+What is the custome's age?
+30
+ex11.rb:31:in `<main>': undefined local variable or method `starsign' for main:Object (NameError)
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+y
+Whats is the customer's name?
+ahe
+What is the custome's age?
+30
+ex11.rb:31:in `<main>': undefined local variable or method `starsign' for main:Object (NameError)
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+y
+Whats is the customer's name?
+gg
+Whats is the customer's age?
+What is the custome's age?
+30
+ex11.rb:32:in `<main>': undefined local variable or method `starsign' for main:Object (NameError)
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+y
+Whats is the customer's name?
+rrr
+Whats is the customer's starsign?
+TURUS   
+What is the custome's age?
+30
+ex11.rb:33:in `<main>': undefined local variable or method `starsign' for main:Object (NameError)
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+Y
+Would you like to update the customer's name? y/n
+ex11.rb:41:in `<main>': undefined local variable or method `update_response' for main:Object (NameError)
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+y
+Whats is the customer's name?
+bb
+Whats is the customer's starsign?
+tuarus    
+What is the custome's age?
+30
+Customer details:
+name bb
+Start=sign: tuarus
+Age: 30
+===============
+Would you like to update the customer's name? y/n
+ex11.rb:41:in `<main>': undefined local variable or method `update_response' for main:Object (NameError)
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+y^[[A
+Would you like to update the customer's name? y/n
+yyy
+Sheilas-MacBook-Air:class 2 sheilaadesina$ 
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+y
+Whats is the customer's name?
+skajhksdj
+Whats is the customer's starsign?
+taurus
+What is the custome's age?
+30
+Customer details:
+name skajhksdj
+Start=sign: taurus
+Age: 30
+===============
+Would you like to update the customer's name? y/n
+y
+What is the new name?
+sheila
+ex11.rb:45:in `<main>': undefined method `update_customer_name' for #<Customer:0x007f84dc154ba0> (NoMethodError)
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+ex11.rb:51: syntax error, unexpected end-of-input, expecting keyword_end
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+ex11.rb:51: syntax error, unexpected end-of-input, expecting keyword_end
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+y 
+Whats is the customer's name?
+yy^[[C
+Whats is the customer's starsign?
+
+What is the custome's age?
+
+Customer details:
+name yy
+Start=sign: 
+Age: 
+===============
+Would you like to update the customer's name? y/n
+
+Sheilas-MacBook-Air:class 2 sheilaadesina$ 
+Sheilas-MacBook-Air:class 2 sheilaadesina$ 
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby ex11.rb
+Customer details:
+name pedro
+Start=sign: taurus
+Age: 21
+===============
+Welcome to Mybank!
+Would like to add a new customer? y/n
+y
+Whats is the customer's name?
+yr
+Whats is the customer's starsign?
+gdgd
+What is the custome's age?
+30
+Customer details:
+name yr
+Start=sign: gdgd
+Age: 30
+===============
+Would you like to update the customer's name? y/n
+y
+What is the new name?
+hdjkhsd
+Customer details:
+name hdjkhsd
+Start=sign: gdgd
+Age: 30
+===============
+Sheilas-MacBook-Air:class 2 sheilaadesina$ kclear
+-bash: kclear: command not found
+Sheilas-MacBook-Air:class 2 sheilaadesina$ clear
+
+Sheilas-MacBook-Air:class 2 sheilaadesina$ gem install rails
+ERROR:  Could not find a valid gem 'rails' (>= 0), here is why:
+          Unable to download data from https://rubygems.org/ - no such name (https://rubygems.org/latest_specs.4.8.gz)
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby -v
+ruby 2.0.0p481 (2014-05-08 revision 45883) [universal.x86_64-darwin14]
+Sheilas-MacBook-Air:class 2 sheilaadesina$ gem install rails
+Fetching: i18n-0.7.0.gem (100%)
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
+Sheilas-MacBook-Air:class 2 sheilaadesina$ rails -v
+Rails is not currently installed on this system. To get the latest version, simply type:
+
+    $ sudo gem install rails
+
+You can then rerun your "rails" command.
+Sheilas-MacBook-Air:class 2 sheilaadesina$ rails -v
+Rails is not currently installed on this system. To get the latest version, simply type:
+
+    $ sudo gem install rails
+
+You can then rerun your "rails" command.
+Sheilas-MacBook-Air:class 2 sheilaadesina$ gem install rails
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
+Sheilas-MacBook-Air:class 2 sheilaadesina$ sudo gem install rails
+
+WARNING: Improper use of the sudo command could lead to data loss
+or the deletion of important system files. Please double-check your
+typing when using sudo. Type "man sudo" for more information.
+
+To proceed, enter your password, or type Ctrl-C to abort.
+
+Password:
+Sheilas-MacBook-Air:class 2 sheilaadesina$ 
+Sheilas-MacBook-Air:class 2 sheilaadesina$ sudo gem install rails
+
+WARNING: Improper use of the sudo command could lead to data loss
+or the deletion of important system files. Please double-check your
+typing when using sudo. Type "man sudo" for more information.
+
+To proceed, enter your password, or type Ctrl-C to abort.
+
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+Fetching: i18n-0.7.0.gem (100%)
+Successfully installed i18n-0.7.0
+Fetching: thread_safe-0.3.5.gem (100%)
+Successfully installed thread_safe-0.3.5
+Fetching: tzinfo-1.2.2.gem (100%)
+Successfully installed tzinfo-1.2.2
+Fetching: minitest-5.8.0.gem (100%)
+Successfully installed minitest-5.8.0
+Fetching: activesupport-4.2.4.gem (100%)
+Successfully installed activesupport-4.2.4
+Fetching: rack-1.6.4.gem (100%)
+Successfully installed rack-1.6.4
+Fetching: rack-test-0.6.3.gem (100%)
+Successfully installed rack-test-0.6.3
+Fetching: mini_portile-0.6.2.gem (100%)
+Successfully installed mini_portile-0.6.2
+Fetching: nokogiri-1.6.6.2.gem (100%)
+Building native extensions.  This could take a while...
+ERROR:  Error installing rails:
+	ERROR: Failed to build gem native extension.
+
+    /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby extconf.rb
+mkmf.rb can't find header files for ruby at /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/include/ruby.h
+
+
+Gem files will remain installed in /Library/Ruby/Gems/2.0.0/gems/nokogiri-1.6.6.2 for inspection.
+Results logged to /Library/Ruby/Gems/2.0.0/gems/nokogiri-1.6.6.2/ext/nokogiri/gem_make.out
+Sheilas-MacBook-Air:class 2 sheilaadesina$ rails -v
+Rails is not currently installed on this system. To get the latest version, simply type:
+
+    $ sudo gem install rails
+
+You can then rerun your "rails" command.
+Sheilas-MacBook-Air:class 2 sheilaadesina$ rails
+Rails is not currently installed on this system. To get the latest version, simply type:
+
+    $ sudo gem install rails
+
+You can then rerun your "rails" command.
+Sheilas-MacBook-Air:class 2 sheilaadesina$ xcode-select --install
+xcode-select: note: install requested for command line developer tools
+Sheilas-MacBook-Air:class 2 sheilaadesina$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/Library/...
+/usr/local/share/man/man1/brew.1
+
+Press RETURN to continue or any other key to abort
+==> /usr/bin/sudo /bin/mkdir /usr/local
+Password:
+==> /usr/bin/sudo /bin/chmod g+rwx /usr/local
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local
+==> /usr/bin/sudo /bin/mkdir /Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Library/Caches/Homebrew
+==> Downloading and installing Homebrew...
+remote: Counting objects: 3719, done.
+remote: Compressing objects: 100% (3554/3554), done.
+remote: Total 3719 (delta 36), reused 519 (delta 25), pack-reused 0
+Receiving objects: 100% (3719/3719), 3.07 MiB | 360.00 KiB/s, done.
+Resolving deltas: 100% (36/36), done.
+From https://github.com/Homebrew/homebrew
+ * [new branch]      master     -> origin/master
+HEAD is now at d39c02f packer: update 0.8.6 bottle.
+==> Installation successful!
+==> Next steps
+Run `brew help` to get started
+Sheilas-MacBook-Air:class 2 sheilaadesina$ brew doctor
+Your system is ready to brew.
+Sheilas-MacBook-Air:class 2 sheilaadesina$ \curl -sSL https://get.rvm.io | bash -s stable
+Downloading https://github.com/rvm/rvm/archive/1.26.11.tar.gz
+Downloading https://github.com/rvm/rvm/releases/download/1.26.11/1.26.11.tar.gz.asc
+Found PGP signature at: 'https://github.com/rvm/rvm/releases/download/1.26.11/1.26.11.tar.gz.asc',
+but no GPG software exists to validate it, skipping.
+
+Installing RVM to /Users/sheilaadesina/.rvm/
+    Adding rvm PATH line to /Users/sheilaadesina/.profile /Users/sheilaadesina/.mkshrc /Users/sheilaadesina/.bashrc /Users/sheilaadesina/.zshrc.
+    Adding rvm loading line to /Users/sheilaadesina/.profile /Users/sheilaadesina/.bash_profile /Users/sheilaadesina/.zlogin.
+Installation of RVM in /Users/sheilaadesina/.rvm/ is almost complete:
+
+  * To start using RVM you need to run `source /Users/sheilaadesina/.rvm/scripts/rvm`
+    in all your open shell windows, in rare cases you need to reopen all shell windows.
+
+# sheilaadesina,
+#
+#   Thank you for using RVM!
+#   We sincerely hope that RVM helps to make your life easier and more enjoyable!!!
+#
+# ~Wayne, Michal & team.
+
+In case of problems: http://rvm.io/help and https://twitter.com/rvm_io
+Sheilas-MacBook-Air:class 2 sheilaadesina$ source ~/.rvm/scripts/rvm
+Sheilas-MacBook-Air:class 2 sheilaadesina$ rvm install 2.2.2
+
+Searching for binary rubies, this might take some time.
+Found remote file https://rvm_io.global.ssl.fastly.net/binaries/osx/10.10/x86_64/ruby-2.2.2.tar.bz2
+Checking requirements for osx.
+Installing requirements for osx.
+Updating system....
+Installing required packages: autoconf, automake, libtool, pkg-config, libyaml, readline, libksba, openssl^[[C^R
+
+^[[.^R
+
+^[........
+Certificates in '/usr/local/etc/openssl/cert.pem' are already up to date.
+Requirements installation successful.
+ruby-2.2.2 - #configure
+ruby-2.2.2 - #download
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 6854k  100 6854k    0     0  1136k      0  0:00:06  0:00:06 --:--:-- 1803k
+No checksum for downloaded archive, recording checksum in user configuration.
+ruby-2.2.2 - #validate archive
+ruby-2.2.2 - #extract
+ruby-2.2.2 - #validate binary
+ruby-2.2.2 - #setup
+ruby-2.2.2 - #gemset created /Users/sheilaadesina/.rvm/gems/ruby-2.2.2@global
+ruby-2.2.2 - #importing gemset /Users/sheilaadesina/.rvm/gemsets/global.gems...-
+ruby-2.2.2 - #generating global wrappers........
+ruby-2.2.2 - #gemset created /Users/sheilaadesina/.rvm/gems/ruby-2.2.2
+ruby-2.2.2 - #importing gemsetfile /Users/sheilaadesina/.rvm/gemsets/default.gems evaluated to empty gem list
+ruby-2.2.2 - #generating default wrappers........
+Updating certificates in '/etc/openssl/cert.pem'.
+mkdir: /etc/openssl: Permission denied
+mkdir -p "/etc/openssl" failed, retrying with sudo
+sheilaadesina password required for 'mkdir -p /etc/openssl': 
+Sorry, try again.
+sheilaadesina password required for 'mkdir -p /etc/openssl': 
+and sudo mkdir worked
+Sheilas-MacBook-Air:class 2 sheilaadesina$ rvm use ruby-2.2.2@rails-423 --create
+ruby-2.2.2 - #gemset created /Users/sheilaadesina/.rvm/gems/ruby-2.2.2@rails-423
+ruby-2.2.2 - #generating rails-423 wrappers..........
+Using /Users/sheilaadesina/.rvm/gems/ruby-2.2.2 with gemset rails-423
+Sheilas-MacBook-Air:class 2 sheilaadesina$ gem install rails --no-ri --no-rdoc
+Fetching: thread_safe-0.3.5.gem (100%)
+Successfully installed thread_safe-0.3.5
+Fetching: tzinfo-1.2.2.gem (100%)
+Successfully installed tzinfo-1.2.2
+Fetching: i18n-0.7.0.gem (100%)
+Successfully installed i18n-0.7.0
+Fetching: activesupport-4.2.4.gem (100%)
+Successfully installed activesupport-4.2.4
+Fetching: rails-deprecated_sanitizer-1.0.3.gem (100%)
+Successfully installed rails-deprecated_sanitizer-1.0.3
+Fetching: mini_portile-0.6.2.gem (100%)
+Successfully installed mini_portile-0.6.2
+Fetching: nokogiri-1.6.6.2.gem (100%)
+Building native extensions.  This could take a while...
+Successfully installed nokogiri-1.6.6.2
+Fetching: rails-dom-testing-1.0.7.gem (100%)
+Successfully installed rails-dom-testing-1.0.7
+Fetching: loofah-2.0.3.gem (100%)
+Successfully installed loofah-2.0.3
+Fetching: rails-html-sanitizer-1.0.2.gem (100%)
+Successfully installed rails-html-sanitizer-1.0.2
+Fetching: erubis-2.7.0.gem (100%)
+Successfully installed erubis-2.7.0
+Fetching: builder-3.2.2.gem (100%)
+Successfully installed builder-3.2.2
+Fetching: actionview-4.2.4.gem (100%)
+Successfully installed actionview-4.2.4
+Fetching: rack-1.6.4.gem (100%)
+Successfully installed rack-1.6.4
+Fetching: rack-test-0.6.3.gem (100%)
+Successfully installed rack-test-0.6.3
+Fetching: actionpack-4.2.4.gem (100%)
+Successfully installed actionpack-4.2.4
+Fetching: sprockets-3.3.3.gem (100%)
+Successfully installed sprockets-3.3.3
+Fetching: sprockets-rails-2.3.2.gem (100%)
+Successfully installed sprockets-rails-2.3.2
+Fetching: bundler-1.10.6.gem (100%)
+Successfully installed bundler-1.10.6
+Fetching: thor-0.19.1.gem (100%)
+Successfully installed thor-0.19.1
+Fetching: railties-4.2.4.gem (100%)
+Successfully installed railties-4.2.4
+Fetching: globalid-0.3.6.gem (100%)
+Successfully installed globalid-0.3.6
+Fetching: activejob-4.2.4.gem (100%)
+Successfully installed activejob-4.2.4
+Fetching: mime-types-2.6.1.gem (100%)
+Successfully installed mime-types-2.6.1
+Fetching: mail-2.6.3.gem (100%)
+Successfully installed mail-2.6.3
+Fetching: actionmailer-4.2.4.gem (100%)
+Successfully installed actionmailer-4.2.4
+Fetching: arel-6.0.3.gem (100%)
+Successfully installed arel-6.0.3
+Fetching: activemodel-4.2.4.gem (100%)
+Successfully installed activemodel-4.2.4
+Fetching: activerecord-4.2.4.gem (100%)
+Successfully installed activerecord-4.2.4
+Fetching: rails-4.2.4.gem (100%)
+Successfully installed rails-4.2.4
+30 gems installed
+Sheilas-MacBook-Air:class 2 sheilaadesina$ rvm use ruby-2.2.2@rails-423 --default
+Using /Users/sheilaadesina/.rvm/gems/ruby-2.2.2 with gemset rails-423
+Sheilas-MacBook-Air:class 2 sheilaadesina$ rails -v
+Rails 4.2.4
+Sheilas-MacBook-Air:class 2 sheilaadesina$ rails new personalapp
+      create  
+      create  README.rdoc
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/assets/javascripts/application.js
+      create  app/assets/stylesheets/application.css
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/views/layouts/application.html.erb
+      create  app/assets/images/.keep
+      create  app/mailers/.keep
+      create  app/models/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/secrets.yml
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/session_store.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  test/fixtures
+      create  test/fixtures/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/test_helper.rb
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor/assets/javascripts
+      create  vendor/assets/javascripts/.keep
+      create  vendor/assets/stylesheets
+      create  vendor/assets/stylesheets/.keep
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/............
+Fetching version metadata from https://rubygems.org/...
+Fetching dependency metadata from https://rubygems.org/..
+Resolving dependencies....
+Using rake 10.4.2
+Using i18n 0.7.0
+Installing json 1.8.3 with native extensions
+Installing minitest 5.8.0
+Using thread_safe 0.3.5
+Using tzinfo 1.2.2
+Using activesupport 4.2.4
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile 0.6.2
+Using nokogiri 1.6.6.2
+Using rails-deprecated_sanitizer 1.0.3
+Using rails-dom-testing 1.0.7
+Using loofah 2.0.3
+Using rails-html-sanitizer 1.0.2
+Using actionview 4.2.4
+Using rack 1.6.4
+Using rack-test 0.6.3
+Using actionpack 4.2.4
+Using globalid 0.3.6
+Using activejob 4.2.4
+Using mime-types 2.6.1
+Using mail 2.6.3
+Using actionmailer 4.2.4
+Using activemodel 4.2.4
+Using arel 6.0.3
+Using activerecord 4.2.4
+Installing debug_inspector 0.0.2 with native extensions
+Installing binding_of_caller 0.7.2 with native extensions
+Using bundler 1.10.6
+Installing byebug 6.0.2 with native extensions
+Installing coffee-script-source 1.9.1.1
+Installing execjs 2.6.0
+Installing coffee-script 2.4.1
+Using thor 0.19.1
+Using railties 4.2.4
+Installing coffee-rails 4.1.0
+Installing multi_json 1.11.2
+Installing jbuilder 2.3.1
+Installing jquery-rails 4.0.4
+Using sprockets 3.3.3
+Using sprockets-rails 2.3.2
+Using rails 4.2.4
+Using rdoc 4.2.0
+Installing sass 3.4.18
+Installing tilt 1.4.1
+Installing sass-rails 5.0.3
+Installing sdoc 0.4.1
+Installing spring 1.3.6
+Installing sqlite3 1.3.10 with native extensions
+Installing turbolinks 2.5.3
+Installing uglifier 2.7.1
+Installing web-console 2.2.1
+Bundle complete! 12 Gemfile dependencies, 53 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+         run  bundle exec spring binstub --all
+* bin/rake: spring inserted
+* bin/rails: spring inserted
+Sheilas-MacBook-Air:class 2 sheilaadesina$ cd personalapp
+Sheilas-MacBook-Air:personalapp sheilaadesina$ rails s
+=> Booting WEBrick
+=> Rails 4.2.4 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+[2015-08-26 20:33:36] INFO  WEBrick 1.3.1
+[2015-08-26 20:33:36] INFO  ruby 2.2.2 (2015-04-13) [x86_64-darwin14]
+[2015-08-26 20:33:36] INFO  WEBrick::HTTPServer#start: pid=27183 port=3000
+
+
+Started GET "/" for ::1 at 2015-08-26 20:38:36 +1000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/sheilaadesina/.rvm/gems/ruby-2.2.2@rails-423/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (5.0ms)
+Completed 200 OK in 40ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+

@@ -1,5 +1,5 @@
 class GarmentTypesController < ApplicationController
-  before_action :set_garment_type, only: [:show, :edit, :update, :destroy]
+  #before_action :set_garment_type, only: [:show, :edit, :update, :destroy]
 
   # GET /garment_types
   # GET /garment_types.json
@@ -10,6 +10,7 @@ class GarmentTypesController < ApplicationController
   # GET /garment_types/1
   # GET /garment_types/1.json
   def show
+    @garment_type = GarmentType.find(params[:id])
   end
 
   # GET /garment_types/new
@@ -19,6 +20,7 @@ class GarmentTypesController < ApplicationController
 
   # GET /garment_types/1/edit
   def edit
+    @garment_type = GarmentType.find(params[:id])
   end
 
   # POST /garment_types
@@ -40,6 +42,7 @@ class GarmentTypesController < ApplicationController
   # PATCH/PUT /garment_types/1
   # PATCH/PUT /garment_types/1.json
   def update
+    @garment_type = GarmentType.find(params[:id])
     respond_to do |format|
       if @garment_type.update(garment_type_params)
         format.html { redirect_to @garment_type, notice: 'Garment type was successfully updated.' }
@@ -54,6 +57,7 @@ class GarmentTypesController < ApplicationController
   # DELETE /garment_types/1
   # DELETE /garment_types/1.json
   def destroy
+    @garment_type = GarmentType.find(params[:id])
     @garment_type.destroy
     respond_to do |format|
       format.html { redirect_to garment_types_url, notice: 'Garment type was successfully destroyed.' }
@@ -63,9 +67,9 @@ class GarmentTypesController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_garment_type
-      @garment_type = GarmentType.find(params[:id])
-    end
+    #def set_garment_type
+    #  @garment_type = GarmentType.find(params[:id])
+    #end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def garment_type_params

@@ -9,18 +9,23 @@
      <br><br>
     <div class="panel panel-default">
      <div class="panel-body">
+      <div style="height: 550px;line-height:3em;overflow:auto;padding:5px;">
     <% @garment_types.each do |garment_type| %>
     <a href="/?garment_type=<%= garment_type.id %>" class="btn btn-block btn-<%= garment_type.id == @garment_type.id ? 'selected' : 'default' %>"><%= garment_type.name %></a>
       <% end %>
+      </div>
      </div></div>
      </div>
     
+
+
     <div class="col-sm-4">
        <button type="button" class="btn btn-default">Garments</button> 
        <br><br>
       <div class="panel panel-default">
         <div class="panel-body">
-          <div style="height: 500px;">
+          <div style="height: 550px;line-height:3em;overflow:auto;padding:5px;">
+
          <% if @garments.any? %> 
           <div class ="row">
            <% @garments.each do |garment| %>
@@ -50,7 +55,8 @@
     <br><br>
       <div class="panel panel-default">
         <div class="panel-body">
-        <div style="height: 500px;">
+       
+          <div style="height: 550px;line-height:3em;overflow:auto;padding:5px;">
       <div class ="row">
             <% @look.garments.each do |garment| %>
              <div class="col-sm-4">

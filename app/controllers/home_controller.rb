@@ -11,7 +11,7 @@ class HomeController < ApplicationController
   	else
   		
   		@garment_type = GarmentType.first
-      @garments = @garment_type.garments
+      @garments = []
   	end
   end
 end
