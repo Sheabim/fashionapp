@@ -10,10 +10,11 @@ user = User.create(email: 'guest@example.com', password: '12345678')
 look = Look.create(user_id: user.id, name: 'default')
 
 garment_types = [
- 'Jacket',
-  'Jacket', 
-   'Jacket', 'Jacket', 'Jacket', 'Jacket', 'Jacket', 'Jacket', 'Jacket', 'Jacket', 'Jacket', 'Jacket'
+ 'Bags',
+  'Belts', 
+   'Bracelets & Bangles', 'Cradigan & umpers', 'Dresses & Jumpsuit', 'Earrings', 'Hats', 'Headbands', 'Jackets & coats', 'Leggins & Tights', 'Necklaces', 'Rings'
 
+, 'Scarfs', 'Shoes', 'Skirts', 'Trousers & Jeans', 'Vest'
 ]
 
 garment_types.each do |garment_type| 
