@@ -17,6 +17,7 @@ garment_types = [
 , 'Scarfs', 'Shoes', 'Skirts', 'Trousers & Jeans', 'Vest'
 ]
 
+
 garment_types.each do |garment_type| 
 	GarmentType.create(name: garment_type)
 end
