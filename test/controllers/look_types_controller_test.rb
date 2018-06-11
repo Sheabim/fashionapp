@@ -47,3 +47,4 @@ class LookTypesControllerTest < ActionController::TestCase
     assert_redirected_to look_types_path
   end
 end
+# 

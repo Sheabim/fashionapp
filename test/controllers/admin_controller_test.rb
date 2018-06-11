@@ -7,3 +7,4 @@ class AdminControllerTest < ActionController::TestCase
   end
 
 end
+# 

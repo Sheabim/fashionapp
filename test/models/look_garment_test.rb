@@ -5,3 +5,4 @@ class LookGarmentTest < ActiveSupport::TestCase
   #   assert true
   # end
 end
+# 

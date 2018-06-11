@@ -5,3 +5,4 @@ class LookTypeTest < ActiveSupport::TestCase
   #   assert true
   # end
 end
+# 

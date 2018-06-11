@@ -5,3 +5,4 @@ class LookTypeJoinTest < ActiveSupport::TestCase
   #   assert true
   # end
 end
+# 

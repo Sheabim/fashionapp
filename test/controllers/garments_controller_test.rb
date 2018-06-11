@@ -47,3 +47,4 @@ class GarmentsControllerTest < ActionController::TestCase
     assert_redirected_to garments_path
   end
 end
+# 
